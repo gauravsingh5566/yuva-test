@@ -1,0 +1,104 @@
+.challengehead h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 22px;
+    background: -webkit-linear-gradient(#44856B, #77934C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+.challengehead div h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+.challnDays{
+    background-color:#F8F8F8;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.challengehead p{
+    font-weight: 600;
+}
+.challengehead p span{
+    color: #997700;
+}
+.daycredits {
+    color: #D0A611;
+    font-weight: 600;
+    width: 10%;
+}
+.dayVal{
+    background-color: 
+    #FF9900;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 19px;
+    line-height: 35px;
+    width: 15%;
+    height: 151px;
+}
+.daypara{
+    width: 70%
+}
+.daypara p:first-child{
+    color: #FFc700;
+}
+.daypara p:last-child{
+    color: #8e8e8e;
+}
+
+/* =======================todayChallenComponentDesign============= */
+
+.upload{
+    border: 2px dashed #E4E4E4;
+    padding: 3rem;
+    border-radius: 19px;
+}
+.upload input{
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    display: inline;
+    width: 25%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 19px;
+}
+.upload span{
+    color: blue;
+    text-decoration: underline;
+}
+.experience p:first-child{
+    color: #6B6B6B;
+}
+.experience input{
+    border-radius: 19px;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    border: none;
+    margin-bottom: 1rem;
+    background-color:#F8F8F8;
+    height: 97px;
+}
+.expbtns button:first-child{
+    background: #E9E9E9;
+    padding: 0.5rem 3rem;
+    color:#868686;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.expbtns button:nth-child(2){
+    background: #9AFF3A;
+    color:#009B06;
+    font-weight: 600;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+}
+.backArrow{
+    cursor: pointer;
+}

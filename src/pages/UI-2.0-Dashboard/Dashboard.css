@@ -1,0 +1,64 @@
+.bannerImage{
+    border-radius: 25px;
+    height: 450px;
+    max-height: 480px;
+}
+.download_card{
+    height: 101px;
+    width: 101px;
+}
+.downloadCardcolor{
+    background: #F7F2FF;
+}
+.dashboardIcon{
+    width: 45px !important;
+    height: 45px  !important;
+    color: #6A03DD  !important;
+}
+img.dashboardIcon{
+    width: 45px !important;
+    height: 45px  !important;
+    color: #6A03DD  !important;
+    filter: hue-rotate(0deg);
+}
+.iconDisableColor{
+    background: rgb(224 224 224 / 81%);
+    height: 68px;
+    width: 68px;
+    opacity: 0.7;
+  cursor: not-allowed;
+}
+.iconEffect{
+    height: 68px;
+    width: 68px;
+    background: #F7F2FF;
+}
+.iconEffect:hover{
+    background-color:#e5d7ff;
+    transition: all 0.5s;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.discussion_borad{
+    animation: grow 1s;
+}
+@keyframes grow {
+    0% { transform: scale(.2); }
+  100% { transform: scale(1); }
+}
+/* Hover Effect dashboard icon */
+.iconEffect{
+    transition: all 0.7s ease-out;
+
+}
+
+.EventCard{
+    border :2px solid #F1E5FF ;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.EventCard:hover{
+    border:2px solid #FFE7AA;
+    transform: scale(1.07);
+    transition: all 0.3s;
+
+}

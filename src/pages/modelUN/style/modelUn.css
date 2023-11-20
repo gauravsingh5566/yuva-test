@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-placeholder::placeholder {
+    color: rgba(117, 117, 117, 0.514); 
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+.cursor-pointer{
+  cursor:pointer;
+  user-select: none;
+}
+.user-select-none{
+  user-select: none;
+}
+.border-transparent{
+  border-color: transparent !important;
+}
+
+.btn-onboard-fill{
+  background: rgb(1,21,200);
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+  padding: 8px 18px;
+}
+.btn-onboard-fill-disabled{
+  background: rgba(1, 21, 200, 0.353);
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+  padding: 8px 18px;
+  cursor: not-allowed;
+}
+
+.btn-onboard-fill-disabled-Inter{
+  background: #FAFAFA;
+  color: #6C6C6C;
+  cursor: not-allowed;
+}
+
+.btn-onboard-fill-disabled-Committee{
+  opacity: 0.2; /* You can adjust the opacity to indicate it's disabled */
+  pointer-events: none;
+}
+
+.btn-onboard{
+  color: #808080;
+  font-weight: 600;
+}
+.btn-onboard-disabled{
+  color: rgb(146, 146, 146);
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.on-board-badge{
+  width: 25px; 
+  height: 25px; 
+  background-color: white; 
+  border:1px solid #737373;
+  border-radius: 50%; 
+  color: #737373;
+  font-weight: bold;
+}
+
+.box-shadow-none{
+  box-shadow: none;
+}
+
+.onboard-form-span{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.onboard-form-span-sm{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.dashed-border {
+  border: 2px dashed #004313 !important;
+  padding: 5px; 
+  
+}
+.dashed-border-grey {
+  border: 2px dashed #a3a3a3a8 !important;
+  padding: 5px; 
+  
+}
+.background-purple{
+  background: #F0EBFF !important;
+}
+.background-purple-dark{
+  background: #DAD1FF !important;
+}
+.background-blue{
+  background: #F2F2FF !important;
+}
+.background-blue-dark{
+  background: #D1DBFF !important;
+}
+
+.color-white{
+  color: white !important;
+}
+.color-black{
+    color: black !important;
+  }
+
+.color-purple{
+  color: #633CFF !important;
+}
+.color-purple-dark{
+
+  color:#3D008B;
+}
+.border-purple{
+  border:1px solid #EDCFFF
+}
+.border-purple-dark{
+  border-color: #5200FF;
+}
+.border-blue{
+  border:3px solid #0C0090 !important;
+
+}
+
+.img-h-50-w-50{
+  height:50px;
+  width:50px;
+}
+
+.box-shadow-0{
+  box-shadow: none !important;
+}
+
+
+
+.color-grey{
+  color:#6C6C6C !important
+}
+.fs-14px{
+  font-size: 14px !important;
+}
+.fs-17px{
+  font-size: 17px !important;
+}
+.fs-19px{
+  font-size: 19px !important;
+}
+.fs-15px{
+  font-size: 15px !important;
+  line-height: 22.5px !important;
+}
+.fs-13px{
+  font-size: 13px !important;
+}
+.fs-20px{
+  font-size: 20px !important;
+}
+.fs-22px{
+  font-size: 22px !important;
+  line-height: 33px !important;
+}
+fw-fs-32px{
+    font-size: 32px !important;
+    line-height: 38.73px !important;
+}
+.fs-31px{
+    font-size: 31px !important;
+    line-height: 37.52px !important;
+}
+.fs-32px{
+    font-size: 32px !important;
+}
+.fs-35px{
+  font-size: 35px !important;
+  
+}
+.fw-400{
+  font-size: 400!important;
+}
+.fw-500{
+  font-weight: 500 !important;
+}
+.fw-600{
+  font-weight: 600 !important;
+}
+.fw-700{
+  font-weight: 700 !important;
+}
+
+.mb-50{
+  margin-bottom: 50px !important;;
+}
+.ms-50{
+  margin-left: 50px !important;
+}
+
+.resize-none{
+  resize: none;
+}
+
+.fs-26px{
+  font-size: 26px !important;
+}
+.letter-spacing-5px{
+  letter-spacing: 5px !important;
+}
+
+.large-datepicker-container {
+    width: 900px; /* Set the width to make it large */
+  }
+  
+.large-datepicker-calendar {
+    font-size: 20px; /* Adjust the font size for the calendar */
+    width: 100%; /* Make sure the calendar takes the full width of the container */
+  }
+
+  .large-datepicker-input {
+    font-size: 20px; /* Adjust the font size for the input field */
+    width: 100%; /* Make sure the input field takes the full width of the container */
+    padding: 10px; /* Add padding to increase the size of the input field */
+  }
+
+  /* calender */
+  
+/* Add this CSS to your component's CSS file or a separate stylesheet */
+
+/* Add this CSS to your component's CSS file or a separate stylesheet */
+.calendar {
+    width: 400px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calendar-header {
+    background-color: #F5F5F5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .calendar-header h2 {
+    margin: 0;
+  }
+  
+  .calendar-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .calendar-weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 1px 0;
+  }
+  
+  .weekday {
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+  }
+  .calendar-days{
+    background:#f5f5f5e4
+  }
+  .calendar-day {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    border:2px solid transparent;
+    border-radius: 12%;
+    background:white
+  }
+  .calendar-day:hover{
+    border:2px solid blue;
+    /* background:rgba(255, 255, 255, 0.392) */
+  }
+
+  .selected-date{
+    background:blue;
+    color: white;
+  }
+  
+  .empty-cell {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .column{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 370px) {
+    .content-title {
+      font-size: 16px; /* Adjust the font size for small devices as needed */
+    }
+  }
+
+   .input-handle{
+    width: 249px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    border: none;
+    color:  #3A3A3A;
+  }
+
+  @media (max-width: 993px) {
+    .input-handle {
+      width: 100%;
+    }
+  }
+
+
+  .input-selects{
+    width: 249px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    border: none;
+    color:  #3A3A3A;
+  }
+
+  @media (max-width: 993px) {
+    .input-selects{
+      width: 100%;
+    }
+  }
+
+  .input-selects-phone{
+    /* width: 72px; */
+    height: 50px;
+    border-radius: 8px;
+    color: #4A00E8;
+    background-color: #EDCFFF;
+    border: none;
+    color:  #4A00E8;
+  }
+
+  .input-handle-phone{
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    border: none;
+    color:  #3A3A3A;
+  }
+
+  @media (max-width: 993px) {
+    .input-handle-phone{
+      width: 100%;
+    }
+    
+  }
+
+  .addCoordinator{
+    display: flex;
+    align-items: end;
+  }
+
+  @media (max-width: 993px){
+    .addCoordinator{
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  .adminRight{
+    height: 49px;
+    background-color: #f0ebff;
+    border: 1px solid #EDCFFF;
+    border-radius: 13px;
+  }
+
+  .admin-content{
+   /* line-height: 10px; */
+  }
+  .admin-content span{
+   font-size: 15px;
+    font-weight: 500;
+  }
+  @media (max-width: 430px){
+    .admin-content{
+      line-height: 16px;
+     }
+    .admin-content span{
+      font-size: 10px;
+    }
+  }
+
+/* CSS to make the modal rounded from the left side */
+.left-rounded-modal .modal-content {
+  border-radius: 52px 0px 0px 52px; /* Adjust the value as needed to control the roundness */
+}
+.left-rounded-modal .modal-header,
+.left-rounded-modal .modal-footer {
+  border-radius: 20px 0 0 0; /* Adjust the value as needed to control the roundness */
+}
+
+.scroll-modelun-register{
+  height: 200px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.scroll-modelun-register::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll-modelun-register::-webkit-scrollbar-thumb{
+  border-radius: 6px; /* Set the border radius to make it rounder */
+  background-color: #4A00E8;
+}
+.scroll-modelun-register::-webkit-scrollbar-track {
+  background-color: #f2eeee; /* Change the color on hover */
+}
+.active-filter-button{
+  color: #7000FF;
+}
+
+.inputcheck[type=checkbox] {
+  position: relative;
+	border: 2px solid #a19e9e;
+	border-radius: 2px;
+  /* background: #888; */
+	/* background: none; */
+	cursor: pointer;
+	line-height: 0;
+	margin: 0 .6em 0 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 20px;
+	width: 20px;
+	-webkit-appearance: none;
+  opacity: .5;
+}
+
+.inputcheck[type=checkbox]:hover {
+  opacity: 1;
+}
+
+.inputcheck[type=checkbox]:checked {
+  background-color: #3300ff;
+  opacity: 1;
+}
+
+.inputcheck[type=checkbox]:before {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 4px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}

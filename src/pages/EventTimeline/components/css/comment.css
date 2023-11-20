@@ -1,0 +1,87 @@
+.comment-card {
+  margin-top: 12px;
+  max-height: 650px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+}
+.comment-card:hover {
+  /* background: rgb(75, 75, 75); */
+  transform: scale(1.01);
+}
+
+.header {
+}
+.header .comment-right {
+  font-size: 20px;
+}
+.comment-left {
+  padding-right: 13px !important;
+  cursor: pointer;
+}
+.comment-right {
+  padding-left: 12px !important;
+}
+.comment-card .footer {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+.bigger-textbox {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: transparent;
+  outline: transparent;
+}
+.camera-icon-label {
+  cursor: pointer;
+}
+.ButtonAt {
+  cursor: pointer;
+}
+
+.below-editor .right img {
+  height: 42px;
+  width: 42px;
+  object-fit: cover;
+  border-radius: 54%;
+}
+
+.userCommentCard {
+  /* background-color: pink; */
+}
+
+.userDetail .name span {
+  font-size: 15px;
+}
+.userDetail .time span {
+  font-size: 12px;
+}
+.userImg img {
+  height: 42px;
+  width: 42px;
+  object-fit: cover;
+  border-radius: 54%;
+  margin-right: 7px;
+}
+
+.userCommentCard .middle,
+.userCommentCard .lower {
+  padding-top: 12px;
+  margin: 0px 49px 0 55px;
+  margin-bottom: 12px;
+}
+
+.comment-card .middle {
+}
+
+.comment-card .middle::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+.comment-card .middle::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+.comment-card .middle::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+}

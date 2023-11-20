@@ -1,0 +1,33 @@
+.leftexp{
+    width: 40%;
+}
+.rightexp{
+    font-family: 'Lexend', sans-serif;
+    width: 60%;
+}
+.rightexp h2{
+    font-size: 59px;
+}
+#learnMore{
+    background-color: #8000FF;
+    width: fit-content;
+}
+.icon{
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    border-radius: 16px;
+    margin: 0 0.5rem;
+}
+.iconOne{
+    background-color:#0066FF;
+}
+.iconTwo{
+    background-color:#FFC700;
+}
+.iconThree{
+    background-color:#00CB14;
+}
+.iconFour{
+    background-color:#DD2929;
+}

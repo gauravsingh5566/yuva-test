@@ -1,0 +1,41 @@
+.leftTesti{
+    font-family: 'Lexend', sans-serif;
+    width: 60%;
+}
+.leftTesti h2{
+    font-size: 50px;
+}
+.leftTesti p{
+    color: #888888;
+}
+.rightTesti{
+    width: 40%;
+}
+.monial .images img{
+    width: 30px;
+    height: 30px;
+    margin: 0 0.2rem;
+}
+.images span{
+    font-size: 24px;
+}
+.contensts p{
+    color: #767676;
+    font-size: 21px;
+}
+.contensts h3{
+    color:#3A3A3A;
+    font-size: 21px;
+    font-weight: 500;
+}
+.arrows div{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: 2px solid #4200FF;
+    display: grid;
+    place-items: center;
+}
+.arrows .right img{
+    transform: rotate(180deg);
+}

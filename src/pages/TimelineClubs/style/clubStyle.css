@@ -1,0 +1,573 @@
+:root {
+    
+  }
+
+  .fw-700{
+    font-weight: 700;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+
+.fs-33px{
+    font-size: 33px;
+}
+.fs-19px{
+    font-size: 19px;
+}
+.fs-13px{
+    font-size: 13px;
+}
+.fs-15px{
+    font-size: 15px;
+}
+.fs-9px{
+    font-size: 9px;
+}
+.fs-11-07px{
+    font-size: 11.07px;
+}
+.fs-14px{
+    font-size: 14px;
+}
+.fs-16-07px{
+    font-size: 16.07px;
+}
+.fs-18-07px{
+    font-size: 18.07px;
+}
+  .pro{
+    background: linear-gradient(to right, #E1BA30 100%, #FACE32 65%);
+    /* Add any other CSS properties you need for your <div> here */
+  }
+  .image-div{
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to right, #AA79FC 0%, #6100FF 100%);
+    border-image-slice: 1; 
+    /* border-radius: 50%; */
+  }
+
+  .select-Tab-OPtion{
+    color: "#737373";
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .testimonial{
+    position: relative;
+  }
+
+  .testimonialLeft{
+    position: absolute;
+    bottom: 120px;
+    left: -20px;
+  }
+  .testimonialRight{
+    position: absolute;
+    left: 450px;
+    top: 65px;
+  }
+
+  .club-modal{
+    margin: auto;
+    margin-top: 82px;
+    max-width: 45%;
+  
+   }
+   @media (max-width: 1240px) {
+    .club-modal {
+      max-width: 60%;
+    }
+  }
+   @media (max-width: 1030px) {
+    .club-modal {
+      max-width: 65%;
+    }
+  }
+   @media (max-width: 991px) {
+    .club-modal {
+      max-width: 50%;
+    }
+  }
+   @media (max-width: 600px) {
+    .club-modal {
+      max-width: 80%;
+    }
+  }
+
+  .update-delete-btn{
+    /* color: white; */
+  }
+
+  .update-delete-btn:hover{
+    /* color: white; */
+  }
+
+  .update-delete-btn:hover{
+    color: white;
+    background: #9700de;
+  }
+
+
+  .scroll-comment-like-container {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.scroll-comment-like-container::-webkit-scrollbar {
+    /* height:     2px; */
+    width: 2px;
+    /* display: none; */
+    border-radius: 6px; /* Set the border radius to make it rounder */
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #cebef2;
+}
+
+.scroll-comment-like-container::-webkit-scrollbar-track {
+    background-color: #f2eeee; /* Change the color on hover */
+}
+
+/* For post */
+.scroll-postComment-container {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.scroll-postComment-container::-webkit-scrollbar {
+  /* height:     2px; */
+  width: 2px;
+  /* display: none; */
+  border-radius: 6px; /* Set the border radius to make it rounder */
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #cebef2;
+}
+
+.scroll-postComment-container::-webkit-scrollbar-track {
+  background-color: #f2eeee; /* Change the color on hover */
+}
+
+
+/* Join CLUB */
+.custom-btn-1 {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-1 {
+  background: #6100ff;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 5px rgb(38, 0, 255);
+}
+.btn-1 .enter-Club {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-1:hover{
+  background: transparent;
+}
+.btn-1:before,
+.btn-1:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: rgb(38, 0, 255);
+ box-shadow: 0 0 5px rgb(38, 0, 255);
+}
+.btn-1:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-1:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-1:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-1:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-1 .join-club:before,
+.btn-1 .join-club:after {
+  position: absolute;
+  content: "";
+  background: rgb(38, 0, 255);
+  box-shadow: 0 0 5px rgb(38, 0, 255);
+}
+.btn-1 .join-club:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-1 .join-club:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-1 .join-club:hover:before {
+  width: 100%;
+}
+.btn-1 .join-club:hover:after {
+  width: 100%;
+}
+.btn-1:hover {
+  color: black; /* Add this line to change text color to black on hover */
+  background: transparent;
+}
+
+
+
+/* ENTER CLUB */
+.custom-btn-6 {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-6 {
+  background: #9b5ffd;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 5px rgb(70 168 246);
+}
+.btn-6 .enter-Club {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:hover{
+  background: transparent;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #9700de;
+ box-shadow: 0 0 5px #9700de;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 .enter-Club:before,
+.btn-6 .enter-Club:after {
+  position: absolute;
+  content: "";
+  background: #9700de;
+  box-shadow: 0 0 5px #9700de;
+}
+.btn-6 .enter-Club:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 .enter-Club:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 .enter-Club:hover:before {
+  width: 100%;
+}
+.btn-6 .enter-Club:hover:after {
+  width: 100%;
+}
+.btn-6:hover {
+  color: black; /* Add this line to change text color to black on hover */
+  background: transparent;
+}
+
+
+
+  
+/* UNFOLLOW BUTTON */
+.custom-btn-3 {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-3 {
+  background: rgb(70 168 246);
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 5px rgb(70 168 246);
+}
+.btn-3 .unfollow-club {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:hover{
+  background: transparent;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: rgb(70 168 246);
+ box-shadow: 0 0 5px rgb(70 168 246);
+}
+.btn-3:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-3:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-3:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-3:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-3 .unfollow-club:before,
+.btn-3 .unfollow-club:after {
+  position: absolute;
+  content: "";
+  background: rgb(70 168 246);
+  box-shadow: 0 0 5px rgb(70 168 246);
+}
+.btn-3 .unfollow-club:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-3 .unfollow-club:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-3 .unfollow-club:hover:before {
+  width: 100%;
+}
+.btn-3 .unfollow-club:hover:after {
+  width: 100%;
+}
+.btn-3:hover {
+  color: black; /* Add this line to change text color to black on hover */
+  background: transparent;
+}
+
+
+/* IGNORE BUTTON */
+.custom-btn-4 {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-4 {
+  background: #cc6e6e;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 5px #d66647;
+}
+.btn-4 .ignore {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-4:hover{
+  background: transparent;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #d66647;
+ box-shadow: 0 0 5px #d66647;
+}
+.btn-4:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-4:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-4:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-4:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-4 .ignore:before,
+.btn-4 .ignore:after {
+  position: absolute;
+  content: "";
+  background: #d66647;
+  box-shadow: 0 0 5px #d66647;
+}
+.btn-4 .ignore:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-4 .ignore:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-4 .ignore:hover:before {
+  width: 100%;
+}
+.btn-4 .ignore:hover:after {
+  width: 100%;
+}
+.btn-4:hover {
+  color: black; /* Add this line to change text color to black on hover */
+  background: transparent;
+}
+
+
+.comment-emoji-div {
+  position: relative;
+}
+.emoji-Picker_div {
+  position: absolute;
+  top: -320px;
+  right: 45px
+}
+
+@media (max-width: 520px) {
+  .comment-emoji-div {
+    position: relative;
+
+  }
+  .emoji-Picker_div {
+    position: absolute;
+    top: -380px;
+    right: -21px
+  }
+}
+
+
+.add-post-emoji-div {
+  position: relative;
+}
+.post-emoji-div {
+  position: absolute;
+  top: -355px;
+  right: 2px
+}
+
+@media (max-width: 520px) {
+  .add-post-emoji-div {
+    position: relative;
+
+  }
+  .post-emoji-div {
+    position: absolute;
+    top: -380px;
+    right: -21px
+  }
+}
+
+.mention-paragraph{
+  background-color: #9700de;
+}

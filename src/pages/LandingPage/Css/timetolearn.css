@@ -1,0 +1,16 @@
+
+.leftSide{
+    width: 60%;
+}
+.rightSide{
+    width: 40%;
+}
+.leftSide h2{
+    font-family: 'Lexend', sans-serif;
+}
+.leftSide img{
+    position: absolute;
+    bottom: -80px;
+    left: 100%;
+    transform: translate(-80%);
+}

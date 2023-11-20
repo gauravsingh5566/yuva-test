@@ -1,0 +1,476 @@
+
+:root {
+  --club-component-background: #F3F2F3;
+
+}
+
+
+.button {
+  margin-right: 38px;
+  background: rgb(228, 226, 226);
+  padding: 5px 13px;
+  border-radius: 14px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+.profile-img {
+  display: flex;
+  justify-content: center;
+}
+.profile-img img {
+}
+.institute-detail img {
+  height: 61px;
+  object-fit: cover;
+  width: 61px;
+  border-radius: 54%;
+}
+.institute-detail {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 17px;
+  /* border: 1px solid black; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+  border: 1px solid #9090905e;
+}
+.institute-detail:hover {
+  box-shadow: 0 8px 16px rgb(0 0 0 / 75%);
+  transform: scale(1.04);
+}
+
+.img img {
+  height: 61px;
+  object-fit: cover;
+  width: 61px;
+  border-radius: 54%;
+}
+.card-hover {
+  /* border:1px solid rgb(165, 165, 165); */
+  border-radius: 2%;
+  transition: all 0.5s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+}
+.card-hover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 75%);
+}
+.lower .button {
+  background: #fe9c15;
+  color: white;
+
+  transition: all 0.4s;
+}
+.lower .button:hover {
+  color: white;
+  background: #b96c00;
+
+  /* background: rgb(75, 75, 75); */
+  transform: scale(1.01);
+}
+.middle .right input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.change-background {
+  /* border: 1px solid rgb(165, 165, 165); */
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
+  background: white;
+  /* max-height: 900px; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+  transition: all 0.5s;
+}
+.change-background:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 75%);
+}
+.change-background .post-left-3dot {
+  cursor: pointer;
+  font-size: 29px;
+}
+.middle {
+  height: 70%;
+}
+.userDetails .name span {
+  font-size: 12px;
+}
+.userDetails .date span {
+  font-size: 9px;
+}
+.details .name span {
+  font-size: 15px;
+}
+.details .date span {
+  font-size: 12px;
+}
+.post-img {
+  height: 85%;
+}
+.post-img img {
+  /* height: 100%; */
+  width: 100%;
+  object-fit: cover;
+  max-height: 620px;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.margin-top10 {
+  padding-top: 10px;
+}
+.like-icon,
+.comment-icon {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+.like-icon:hover,
+.comment-icon:hover {
+  transform: scale(1.5);
+}
+.Profile-card,
+.right-card {
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267); */
+  /* transition: all .5s */
+}
+.Profile-card:hover,
+.right-card:hover {
+  /* box-shadow: 0 8px 16px rgb(0 0 0 / 75%); */
+  /* transform: scale(1.01); */
+}
+.right-card {
+  border: none;
+}
+
+.dropdown-menu-left {
+  left: 0 !important;
+  right: auto !important;
+}
+
+.middle .description {
+  overflow-wrap: break-word; /* Wrap long words */
+  word-break: break-word; /* Break words to prevent horizontal overflow */
+  overflow: hidden; /* Hide horizontal overflow */
+  text-overflow: ellipsis;
+}
+
+.profile-card {
+  width: 100%;
+  height: 70%;
+  z-index: -12;
+}
+
+.profile-card-span {
+  color: black;
+  display: inline-block !important;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profile-card-background-color {
+  background: #fe9c15;
+  /* height: 35%; */
+  position: absolute;
+  width: 100%;
+  height: 31%;
+  z-index: -1;
+}
+
+.profile-card-left {
+  padding: 15px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+  user-select: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.profile-card-left:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 75%);
+}
+
+.profile-card-cover-photo {
+  position: relative;
+  background: url(https://i.imgur.com/jxyuizJ.jpeg);
+  background-size: cover;
+  height: 180px;
+  border-radius: 5px 5px 0 0;
+}
+
+.profile-card-profile {
+  position: absolute;
+  width: 120px;
+  bottom: -20px;
+  left: 15px;
+  border-radius: 50%;
+  border: 2px solid r#fe9c15ed;
+  background: #fe9c15;
+  padding: 5px;
+}
+
+.profile-card-name {
+  font-size: 20px;
+  /* margin: 25px 0 0 120px; */
+  padding: 32px 0 0 0;
+  color: black;
+}
+
+.profile-card-about {
+  margin-top: 30px;
+  line-height: 1.6;
+}
+.dropdown-menu-custom-class {
+  position: absolute !important ;
+  inset: 0px auto auto 0px !important ;
+  transform: translate(-167px, 3px) !important ;
+}
+
+.allInstiute-span-name {
+  color: black;
+  display: block !important;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.with-badge-admin {
+  position: absolute;
+  width: 57px;
+  bottom: -23px;
+  left: 45px;
+  /* border-radius: 50%; */
+  border-radius: 12px;
+  /* border: 2px solid white; */
+  background: #fe9c15;
+  padding: 3px;
+  color: white;
+}
+.with-badge-student {
+  position: absolute;
+  width: 64px;
+  bottom: -23px;
+  left: 41px;
+  /* border-radius: 50%; */
+  border-radius: 12px;
+  /* border: 2px solid white; */
+  background: #fe9c15;
+  padding: 3px;
+  color: white;
+}
+
+.allInstitute-right-sidebar {
+  overflow: scroll;
+  max-height: 947px;
+}
+.allInstitute-right-sidebar::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+.allInstitute-right-sidebar::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+.allInstitute-right-sidebar::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+}
+
+.thin-scroll::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+.thin-scroll::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+}
+
+.hover-shadow-for-component{
+  box-shadow: 1px 4px 4px rgba(0, 11, 4, 0.1);
+  transition: box-shadow 0.26s ease;
+}
+.hover-shadow-for-component:hover{
+  box-shadow:rgba(0, 11, 4, 0.2) 0px 0px 12px;
+}
+.allInstitute-right-sidebar-header {
+  color: black;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+  color: black;
+  position: sticky;
+  display: block;
+  /* top: 0; */
+  top: -16px;
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+  border-radius: 17px;
+  /* border: 1px solid black; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+  height: 31px;
+}
+.user-report-likes-container {
+  cursor: pointer;
+  width: 97%;
+  border-radius: 12px;
+  margin-top: 20px;
+  background: white;
+  max-height: 900px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.267);
+  transition: all 0.5s;
+}
+.user-report-likes-header {
+  height: 74px;
+  padding-right: 15px;
+}
+.user-report-likes-header img {
+  height: 223%;
+  width: 100%;
+  max-height: 620px;
+  object-fit: cover;
+}
+
+.institute-posts-header {
+  font-size: 30px;
+  color: black;
+  display: block;
+  margin-bottom: 43px;
+}
+.institute-posts-header-name {
+  font-weight: bold;
+  color: #fe9c15;
+}
+
+.user-report-title-main-span {
+  font-size: 29px;
+  color: black;
+}
+
+.user-report-title-main-span .user-report-name {
+  font-weight: 500;
+}
+
+.user-report-Header1 {
+  display: block;
+  font-size: 22px;
+  margin-top: 38px;
+}
+.user-post-likedpost-container {
+  max-height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.user-post-likedpost-container::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+.user-post-likedpost-container::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+.user-post-likedpost-container::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+}
+.userprofile-card-profile {
+  position: absolute;
+  width: 152px;
+  bottom: -20px;
+  left: 15px;
+  border-radius: 50%;
+  border: 2px solid #fe9c15ed;
+  background: #fe9c15;
+  padding: 5px;
+  height: 152px;
+}
+.with-badge-student-userProfile {
+  position: absolute;
+  width: 64px;
+  bottom: -23px;
+  left: 55px;
+  /* border-radius: 50%; */
+  border-radius: 12px;
+  /* border: 2px solid white; */
+  background: #fe9c15;
+  padding: 3px;
+  color: white;
+}
+
+.profile-card-name-userProfile {
+  font-size: 28px;
+  /* margin: 25px 0 0 120px; */
+  padding: 32px 0 0 0;
+  color: black;
+}
+.profile-card-span-userProfile {
+  display: block !important;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.changeScrollBar::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+.changeScrollBar::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+.changeScrollBar::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+}
+
+.youtube-button {
+  background: #ff0000;
+  color: white;
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 12px;
+}
+.youtube-button:hover {
+  background: rgb(119, 12, 12);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .profile-card-left .profile-card-span {
+    font-size: 10px;
+  }
+  .allInstitute-right-sidebar-header {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 769px) {
+  .userprofile-card-profile {
+    position: absolute;
+    width: 120px;
+    bottom: -20px;
+    left: 15px;
+    border-radius: 50%;
+    border: 2px solid r#fe9c15ed;
+    background: #fe9c15;
+    padding: 5px;
+    height: 120px;
+  }
+  .with-badge-student-userProfile {
+    position: absolute;
+    width: 64px;
+    bottom: -23px;
+    left: 41px;
+    /* border-radius: 50%; */
+    border-radius: 12px;
+    /* border: 2px solid white; */
+    background: #fe9c15;
+    padding: 3px;
+    color: white;
+  }
+}

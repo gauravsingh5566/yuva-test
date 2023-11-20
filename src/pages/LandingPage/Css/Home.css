@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&display=swap');
+header{
+    min-height:100vh;
+    background: url(../assests//bg-yuva\ 1.svg);
+    background-size: cover;
+    background-position: center;
+}
+.mainHeading{
+    font-family: 'Lexend', sans-serif;
+}
+.leftmain{
+    width:60%;
+}
+.rightmain{
+    width:40%;
+}
+.leftmain h1{
+    width: 80%;
+    font-size: 64px;
+}
+.leftmain p{
+    width: 75%;
+}
+div.buttons > button{
+    background-color: #7E42FF;
+    border: none;
+    width: 100%;
+    font-size: 37px;
+}
+.mainbtn button{
+    color: #7E42FF;
+    width: 40%;
+    background-color: #fff;
+    font-size: 28px;
+    box-shadow: 0 0 8px silver;
+}
+
+.rightmain img{
+    height: 360px;
+    width: 438px;
+}
+.rightmain{
+    position: relative;
+}
+.rightmain img:nth-child(2){
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    left: -100px;
+    top: 230px;
+    z-index: -1;
+}
+.rightmain img:nth-child(3){
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    height: 442px;
+    width: 438px;
+}
+.rightmain img:nth-child(4){
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top:-20px;
+    height: 175px;
+    width: 175px;
+}
+.rightmain img:nth-child(5){
+    position: absolute;
+    z-index: -2;
+    left: 190px;
+    top:50px;
+    height: 173px;
+    width: 173px;
+}
+.rightmain img:nth-child(6){
+    position: absolute;
+    z-index: -2;
+    left: -150px;
+    top:0px;
+    height: 120px;
+    width: 158px;
+}
+.rightmain img:nth-child(7){
+    position: absolute;
+    z-index: -2;
+    left:120px;
+    top:-55px;
+    height: 100px;
+    width: 250px;
+}
+.rightmain img:nth-child(8){
+    position: absolute;
+    z-index: -2;
+    height: 128px;
+    width: 122px;
+    bottom: -80px;
+    right: 100px;
+}
+
+/* ==============engageWithEventSectionDesign=========== */
+
+.engageSection h2{
+    font-size: 59px;
+    font-family: 'Lexend', sans-serif;
+}
+.engageSection p{
+    font-family: 'Lexend', sans-serif;
+}

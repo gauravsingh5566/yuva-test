@@ -1,0 +1,452 @@
+.main_Heading {
+  color: #3a0ca3;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 52.04px;
+}
+
+.outer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second_div{
+    /* border: 1px solid red; */
+    width: 291px;
+    height: 236px;
+   
+}
+
+.world_problem {
+  color: #b892d1;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 39.94px;
+}
+
+.ymun_description {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25.41px;
+  /* width: 809px; */
+}
+
+.modelUn_participate_box button {
+  margin-top: 20px;
+  width: 221px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: #9700de;
+}
+
+.bg-light-pink{
+    /* width: 802px; */
+    /* height: 125px; */
+    background-color: #f8f4fc;
+}
+
+.modelUn_Time {
+    height: 120px;
+    /* background-color: #f8f4fc; */
+}
+.modelUn_Time span {
+  color: #cbcbcb;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.31px;
+}
+
+.text p{
+     font-size: 31px;
+     line-height: 37.52px;
+     color: #7209B7;
+}
+
+.building_reconcilation{
+    line-height: 34.5px;
+}
+
+.building_reconcilation span{
+    font-size: 23px;
+    font-weight: 600;
+    color: #6422F1;
+    line-height: 34.5px;
+}
+
+.downloadUN{
+    border: "1px solid red";
+    margin-top: 35px;
+}
+
+.downloadUN p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4361EE;
+}
+
+.modelUN_theme{
+    margin-top: 2.9rem;
+}
+
+.modelUN_comittees{
+    margin-top: 1rem;
+}
+
+.model_UNSC span{
+    color: #3A0CA3;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.position a{
+color: #4361EE;
+font-size: 18px;
+}
+
+.degination{
+    height: 27px;
+    width: 112px;
+    border-radius: 11px;
+}
+
+.degination span{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.country-flag{
+    height: 23px;
+    width: 33px;
+    
+}
+
+.part-ymun-desc{
+    /* width: 789px;
+    height: 60px; */
+}
+.part-ymun-desc p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.26px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .model-un-comittee{
+    width: 173px;
+    height: 243px;
+} */
+
+.margin-right-25px{
+    margin-right:25px
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+
+/* .model-un-political-parties{
+    width: 172px;
+    height: 243px;
+} */
+
+.font-size-11px{
+    font-size: 11px;
+}
+.font-size-19px{
+    font-size: 19px;
+}
+
+.font-size-18px{
+    font-size: 18px;
+}
+.font-size-13px{
+    font-size: 13px;
+}
+.font-size-16px{
+    font-size: 16px;
+}
+.font-size-21px{
+    font-size: 21px;
+}
+
+.model-un-participate{
+    /* border: 1px solid red; */
+    /* width: 181px;
+    height: 181px;
+    border-radius: 21px; */
+}
+
+.bg-ligth-blue{
+    background: #FBFBFD;
+}
+
+.height-100px{
+    height: 100px;
+}
+
+.font-weight-600{
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+.font-weight-500{
+    font-weight: 500;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+.margin-top-11px{
+    margin-top: 11px;
+}
+
+.margin-top-8px{
+    margin-top: 8px;
+}
+
+.margin-top-15px{
+    margin-top: 15px;
+}
+
+.margin-top-5px{
+    margin-top: 5px;
+}
+.font-family-Lexend{
+    font-family: 'Lexend', sans-serif;
+}
+.font-family-inter{
+    font-family: 'inter', sans-serif;
+}
+
+.line-height-22-5px{
+    line-height: 22.5px;
+}
+.line-height-16-25px{
+    line-height: 16.25px;
+}
+
+.color-A3A3A3{
+    color: #A3A3A3;
+}
+
+.model-un-learn{
+    /* width: 355px;
+    height: 80px; */
+}
+
+.img-height-58px{
+    height: 58px;
+    width: 60px;
+}
+
+.content-height{
+    width: 273px;
+    height: 48px;
+}
+
+.height-48px-width-99px{
+    /* border: 1px solid; */
+    width: 99px;
+    height: 48px;
+}
+
+.scroll-container {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.scroll-container::-webkit-scrollbar {
+    height:     2px;
+    /* display: none; */
+    border-radius: 6px; /* Set the border radius to make it rounder */
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d5cbea;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background-color: #f2eeee; /* Change the color on hover */
+}
+
+.color-grey {
+    color: #979797;
+}
+
+.color-ligth-grey {
+    color: #978CA6;
+  }
+
+.color-white {
+    color: #ffffff;
+  }
+  
+  .fw-500 {
+    font-weight: 500;
+  }
+  .fw-600 {
+    font-weight: 600;
+  }
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  .fs-20px {
+    font-size: 20px;
+  }
+  .fs-23px {
+    font-size: 23px;
+  }
+  .fs-16-07px {
+    font-size: 16.07px
+  }
+  .fs-15px {
+    font-size: 15px
+  }
+  .fs-24px {
+    font-size: 24px
+  }
+  .fs-25px {
+    font-size: 25px
+  }
+  .fs-26px {
+    font-size: 26px
+  }
+  .fs-32px {
+    font-size: 32px
+  }
+  .fs-31px {
+    font-size: 32px
+  }
+  
+  .lh {
+    line-height: 24.2px;
+  }
+  .lh-27-84px {
+    line-height:27.84px;
+  }
+  .lh-28-5px {
+    line-height: 28.5px;
+  }
+
+  .lh-31-5px {
+    line-height: 31.5px;
+  }
+  
+  .f-family-Inter{
+      font-family: "Inter", sans-serif;
+  }
+  .f-family-Poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .color-purple{
+    color: #4361EE
+  }
+
+  .lh-34-5px{
+    line-height: 34.5px;
+  }
+
+  .lh-30px{
+    line-height: 34.5px;
+  }
+
+  .color-light-blue{
+    color: #4361EE;
+  }
+
+  .buttonrespnse{
+    width: 233px;
+    height: 55px;
+    color: white;
+    border-radius: 9px;
+    margin: "0 auto"; 
+  }
+
+  @media (max-width: 768px) {
+    .buttonrespnse {
+        width: 200px; /* Adjust font size for smaller screens */
+        padding: 5px;
+    }
+  }
+
+  .bg-blue{
+    background-color: #0014C8;
+  }
+  .color-blue{
+    color: #0014C8;
+  }
+
+  .bg-purple{
+    background-color: #9E00FF;
+  }
+
+  .bg-grey{
+    background-color: #F9F9F9;
+  }
+
+  .bg-mix-purple-white{
+    background-color: #EDCFFF;
+    background-color: #F0EBFF;
+  }
+
+  .color-primary-light-purple{
+    color: #7749F8;
+  }
+
+  .b-radius-8px{
+    border-radius: 8px;
+  }
+  .b-radius-13px{
+    border-radius: 13px;
+  }
+
+  
+  .border-purple{
+    border:  1px solid #EDCFFF;
+  }
+
+.lh-37-52px{
+    line-height: 37.52px;
+}
+
+.color-pink{
+    color: #F50394;
+}
+
+.respon-font {
+  font-size: 20px;
+  line-height: 24.2px; /* Reset line-height if needed */
+  color: grey;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .respon-font {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+.acceptInp[type=checkbox] {
+  position: relative;
+	border: 2px solid #000;
+	border-radius: 2px;
+	background: none;
+	cursor: pointer;
+	line-height: 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 20px;
+	width: 20px;
+	/* -webkit-appearance: none; */
+  opacity: .5;
+}
+
+.active-filter-border{
+  border: 4px solid #7000FF;
+}
+.customMunSelect{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}

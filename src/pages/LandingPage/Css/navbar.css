@@ -1,0 +1,27 @@
+:root{
+    --brown:#3F2200
+}
+div.navbar{
+    box-shadow: 0 0px 5px silver;
+}
+.no-list-styel{
+    list-style: none;
+}
+li a{
+    color: var(--brown);
+    text-decoration: none;
+}
+
+#search{
+    border: none;
+    background-color: #F3F3F3;
+}
+#search:focus{
+    outline: none;
+}
+#search::placeholder{
+    color: #9B9B9B;
+}
+div.inputField{
+    background-color: #F3F3F3;
+}

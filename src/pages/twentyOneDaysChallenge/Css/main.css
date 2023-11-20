@@ -1,0 +1,43 @@
+.mainContent h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 90px;
+    line-height: 89px;
+    background: -webkit-linear-gradient(#44856B, #77934C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 7rem;
+}
+.mainContent p{
+    color: #667A64;
+}
+.mainContent img{
+    display: block;
+    margin: auto;
+}
+.mainContent button{
+    color: #009B06;
+    background: #9AFF3A;
+    padding: 0.5rem 2rem;
+    border-radius: 19px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.lowerContent > p{
+    color: #096F00;
+    font-size: 23px;
+    font-weight: 600;
+}
+.tasks p.one{
+    background: #508864;
+    font-size: 35px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.secondpara{
+    font-weight: 600;
+    text-align: left;
+}

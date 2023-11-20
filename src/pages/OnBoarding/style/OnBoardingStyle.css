@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-placeholder::placeholder {
+    color: rgba(117, 117, 117, 0.514); 
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+.cursor-pointer{
+  cursor:pointer;
+  user-select: none;
+}
+.user-select-none{
+  user-select: none;
+}
+.border-transparent{
+  border-color: transparent !important;
+}
+
+.btn-onboard-fill{
+  background: rgb(1,21,200);
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+  padding: 8px 18px;
+}
+.btn-onboard-fill-disabled{
+  background: rgba(1, 21, 200, 0.353);
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+  padding: 8px 18px;
+  cursor: not-allowed;
+}
+
+.btn-onboard{
+  color: rgb(1,21,200);
+  font-weight: 600;
+}
+.btn-onboard-disabled{
+  color: rgb(146, 146, 146);
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.on-board-badge{
+  width: 25px; 
+  height: 25px; 
+  background-color: white; 
+  border:1px solid #737373;
+  border-radius: 50%; 
+  color: #737373;
+  font-weight: bold;
+}
+
+.box-shadow-none{
+  box-shadow: none;
+}
+
+.onboard-form-span{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.onboard-form-span-sm{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.dashed-border {
+  border: 2px dashed #004313 !important;
+  padding: 5px; 
+  
+}
+.dashed-border-grey {
+  border: 2px dashed #a3a3a3a8 !important;
+  padding: 5px; 
+  
+}
+.background-purple{
+  background: #F0EBFF !important;
+}
+.background-purple-dark{
+  background: #DAD1FF !important;
+}
+.background-blue{
+  background: #F2F2FF !important;
+}
+.background-blue-dark{
+  background: #D1DBFF !important;
+}
+.background-purple-button{
+  background:#6100FF !important
+}
+
+.color-white{
+  color: white !important;
+}
+
+.color-purple{
+  color: #633CFF !important;
+}
+.color-purple-dark{
+
+  color:#3D008B;
+}
+.border-purple{
+  border:1px solid #EDCFFF
+}
+.border-red{
+  border:3px solid red;
+}
+.border-purple-dark{
+  border-color: #5200FF;
+}
+.border-blue{
+  border-color: #0C0090;
+}
+
+.img-h-50-w-50{
+  height:50px;
+  width:50px;
+}
+
+.box-shadow-0{
+  box-shadow: none !important;
+}
+
+.background-grey{
+  background:#fafafa!important
+}
+
+
+.color-grey{
+  color:#6C6C6C !important
+}
+
+
+.fs-14px {
+  font-size: 0.875rem !important; /* 14px / 16px = 0.875rem */
+}
+
+.fs-17px {
+  font-size: 1.0625rem !important; /* 17px / 16px = 1.0625rem */
+}
+
+.fs-19px {
+  font-size: 1.1875rem !important; /* 19px / 16px = 1.1875rem */
+}
+
+.fs-15px {
+  font-size: 0.9375rem !important; /* 15px / 16px = 0.9375rem */
+  line-height: 1.40625rem !important; /* 22.5px / 16px = 1.40625rem */
+}
+
+.fs-20px {
+  font-size: 1.25rem !important; /* 20px / 16px = 1.25rem */
+}
+
+.fs-22px {
+  font-size: 1.375rem !important; /* 22px / 16px = 1.375rem */
+  line-height: 2.0625rem !important; /* 33px / 16px = 2.0625rem */
+}
+
+.fs-26px {
+  font-size: 1.625rem !important; /* 26px / 16px = 1.625rem */
+}
+
+.fs-35px {
+  font-size: 2.1875rem !important; /* 35px / 16px = 2.1875rem */
+
+}
+.fw-400{
+  font-size: 400!important;
+}
+.fw-500{
+  font-weight: 500 !important;
+}
+.fw-600{
+  font-weight: 600 !important;
+}
+
+.mb-50{
+  margin-bottom: 50px !important;;
+}
+.ms-50{
+  margin-left: 50px !important;
+}
+
+.resize-none{
+  resize: none;
+}
+
+.letter-spacing-5px{
+  letter-spacing: 5px !important;
+}
+
+/* CSS to make the modal rounded from the left side */
+.left-rounded-modal .modal-content {
+  border-radius: 52px 0px 0px 52px; /* Adjust the value as needed to control the roundness */
+}

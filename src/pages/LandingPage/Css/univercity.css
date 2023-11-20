@@ -1,0 +1,32 @@
+.satya h2{
+    font-family: 'Lexend', sans-serif;
+    font-size: 50px;
+}
+.univercityIcons div p{
+    font-size: 15px;
+}
+.seeMore{
+    background-color: #4200FF;
+    display: block;
+    margin: auto;
+    border-radius: 23px;
+}
+.btnIcon{
+    font-family: 'Lexend', sans-serif;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+
+#satyaimg{
+    left:100px;
+    z-index: -1;
+}
+
+#unaUni{
+    right: 0;
+    z-index: -1;
+}

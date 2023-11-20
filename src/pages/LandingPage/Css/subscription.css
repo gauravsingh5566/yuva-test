@@ -1,0 +1,22 @@
+.subscribe {
+    display: flex;
+    background-color: #7000FF;
+    border-radius: 143px;
+    font-family: 'Lexend', sans-serif;
+    flex-direction: column;
+}
+
+.subscribe h3 {
+    font-size: 36px;
+}
+
+.subscribe form input {
+    border-radius: 11px;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #7000FF;
+}
+
+.subscribe form input:first-child {
+    width: 40%;
+}

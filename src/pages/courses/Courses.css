@@ -1,0 +1,96 @@
+.fs-9{
+    font-size: 9px;
+    font-weight: 300;
+    color: #6D6D6D;
+}
+.fs-11{
+    font-size: 11px;
+    font-weight: 500;
+    
+}
+.courceIcon{
+    height: 15px !important;
+    width: 15px !important;
+    margin-right: 10px;
+
+}
+.borderBottom{
+    border: 1px solid #F1F1F1!important;
+    margin-top: 30px !important;
+}
+.courseIconTitle{
+    margin-top: 8px;
+    color: #565656;
+    font-weight: 400;
+}
+.courseIconDetail{
+    font-weight: 500;
+    color: #000000;
+}
+
+.courses-title {
+    font-size: 25px;
+    color: #000000;
+}
+.course-card {
+    width: 350px;   
+    background: white;
+    box-shadow: 0px 0px 20px rgba(205.57, 217.60, 226.31, 0.50);
+    border-radius: 25;
+    padding: 19px 17px 14px 17px;
+    border-radius: 25px;
+    border: 1px #F2F2F2 solid;
+    margin-right: 30px;
+}
+.image-Container {
+    width: 316px;
+}
+.overlay-container {
+    position: relative;
+    bottom: 0px;
+}
+.courseStatus{
+    position: relative;
+    /* bottom: 0px; */
+    left: 220px;
+    bottom: 80px;
+}
+
+.CardTitle {
+    font-size: 14px;
+    font-weight: 600;
+    word-wrap: break-word;
+    color: #000000;
+}
+
+.CourseText {
+    font-size: 11px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #7C7C7C;
+    margin-bottom: 0px;
+}
+.courseBy{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.cartbutton{
+    color: #ffffff;
+    background: #7000FF;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 2px;
+    width: 128px;
+    height: 30px;
+}
+@media screen and (max-width: 580px) {
+    .course-card {
+       margin-left: 10px;
+        padding: 19px 17px 14px 10px;
+    
+    }
+  }

@@ -1,0 +1,26 @@
+.mainCongressSec img{
+    top: -50px;
+}
+.cong{
+    font-size: 34px;
+    font-weight: 600;
+}
+.congpara{
+    font-weight: 600;
+    font-size: 22px;
+    color: #8F8F8F;
+}
+.retakebtn{
+    background-color: #9AFF3A;
+    color:#009B06;
+    padding: 0.5rem 3rem;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    border-radius: 19px;
+}
+.pastChallenges h3{
+    font-size: 22px;
+    font-weight: 600;
+}
