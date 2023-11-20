@@ -1,0 +1,49 @@
+name: react-Build
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.17.1]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run build
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@master
+        with:
+          host: 3.111.66.160
+          username: centos
+          key: ${{ secrets.STAGING_PRIVATE_KEY }}
+          source: "dist/*"
+          target: "/home/centos"
+
+  access_server:
+    name: Access server
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ssh in server    
+        uses: appleboy/ssh-action@master
+        with:
+          host: 3.111.66.160
+          username: centos
+          key: ${{ secrets.STAGING_PRIVATE_KEY }}
+          script: |
+             sudo mv /home/centos/dist/ff-superadmin /var/www/html/admin_new
+             sudo mv /var/www/html/admin /var/www/html/admin_"$(date)"
+             sudo mv /var/www/html/admin_new /var/www/html/admin
+             sudo rm -rf /home/centos/dist
+             sudo cp /var/www/html/admin_backup/.htaccess /var/www/html/admin/
